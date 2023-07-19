@@ -80,7 +80,7 @@ type Cluster struct {
 
 // AWSCloudFormationType returns the AWS CloudFormation resource type
 func (r *Cluster) AWSCloudFormationType() string {
-	return "AWS::EKS::Cluster"
+	return "Dev::EKS::Cluster"
 }
 
 // MarshalJSON is a custom JSON marshalling hook that embeds this object into

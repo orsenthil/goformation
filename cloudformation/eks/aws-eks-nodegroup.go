@@ -122,7 +122,7 @@ type Nodegroup struct {
 
 // AWSCloudFormationType returns the AWS CloudFormation resource type
 func (r *Nodegroup) AWSCloudFormationType() string {
-	return "AWS::EKS::Nodegroup"
+	return "Dev::EKS::Nodegroup"
 }
 
 // MarshalJSON is a custom JSON marshalling hook that embeds this object into
