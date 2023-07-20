@@ -13,12 +13,12 @@ type Cluster_ResourcesVpcConfig struct {
 	// EndpointPrivateAccess AWS CloudFormation Property
 	// Required: false
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-eks-cluster-resourcesvpcconfig.html#cfn-eks-cluster-resourcesvpcconfig-endpointprivateaccess
-	EndpointPrivateAccess *types.Value `json:"EndpointPrivateAccess,omitempty"`
+	// EndpointPrivateAccess *types.Value `json:"EndpointPrivateAccess,omitempty"`
 
 	// EndpointPublicAccess AWS CloudFormation Property
 	// Required: false
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-eks-cluster-resourcesvpcconfig.html#cfn-eks-cluster-resourcesvpcconfig-endpointpublicaccess
-	EndpointPublicAccess *types.Value `json:"EndpointPublicAccess,omitempty"`
+	// EndpointPublicAccess *types.Value `json:"EndpointPublicAccess,omitempty"`
 
 	// PublicAccessCidrs AWS CloudFormation Property
 	// Required: false

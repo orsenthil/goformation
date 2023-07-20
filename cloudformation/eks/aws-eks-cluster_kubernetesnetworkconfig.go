@@ -13,7 +13,7 @@ type Cluster_KubernetesNetworkConfig struct {
 	// IpFamily AWS CloudFormation Property
 	// Required: false
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-eks-cluster-kubernetesnetworkconfig.html#cfn-eks-cluster-kubernetesnetworkconfig-ipfamily
-	IpFamily *types.Value `json:"IpFamily,omitempty"`
+	// IpFamily *types.Value `json:"IpFamily,omitempty"`
 
 	// ServiceIpv4Cidr AWS CloudFormation Property
 	// Required: false
