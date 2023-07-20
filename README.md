@@ -1,6 +1,6 @@
 # NOTE
 
-# This is a forked version of https://github.com/weaveworks/goformation branch `master.next` with changes to support create EKS clusters against beta endpoints.
+## This is a forked version of [weaveworks/goformation](https://github.com/weaveworks/goformation) branch `master.next` with changes to support creating clusters against a custom EKS endpoint.
 
 ![AWS GoFormation logo](./static/logo.png)
 
